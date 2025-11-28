@@ -31,13 +31,13 @@ class ClinicHomePage extends StatelessWidget {
             const SizedBox(height: 12),
 
             ElevatedButton(
-              onPressed: () => context.go('/loan'),
+              onPressed: () => context.go('/presupuesto'),
               child: const Text('Presupuesto de tratamiento'),
             ),
             const SizedBox(height: 12),
 
             ElevatedButton(
-              onPressed: () => context.go('/atm'),
+              onPressed: () => context.go('/agenda'),
               child: const Text('Agenda de la semana'),
             ),
             const SizedBox(height: 12),
